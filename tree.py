@@ -1,8 +1,7 @@
 from dataclasses import dataclass, field
 from uuid import uuid4
 
-BLOCKS: tuple = ("root", "n1", "n2", "n4", "n5", "n6", "n7")
-# BLOCKS = ("root", "div", "p", "b", "strong", "i", "ul", "ol", "span")
+BLOCKS = ("root", "div", "p", "b", "strong", "i", "ul", "ol", "span")
 PRINT_SHIFT = 2
 
 
